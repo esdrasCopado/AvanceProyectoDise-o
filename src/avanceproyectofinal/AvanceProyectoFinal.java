@@ -15,7 +15,6 @@ public class AvanceProyectoFinal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Guia juan=new Guia();
         
     }
     
