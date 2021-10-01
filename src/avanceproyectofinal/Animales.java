@@ -11,5 +11,13 @@ package avanceproyectofinal;
  */
 public class Animales {
     
+    private String nombreComun;
+    private String nombreCientifico;
+    private String descripcion;
     
+    Animales(String nombre,String nombreCientifico, String descripcion){
+        this.nombreComun=nombre;
+        this.nombreCientifico=nombreCientifico;
+        this.descripcion=descripcion;
+    }
 }

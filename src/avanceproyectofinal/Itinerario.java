@@ -11,4 +11,16 @@ package avanceproyectofinal;
  */
 public class Itinerario {
     
+    private int duracionRecorido;
+    private float longitud;
+    private int numeroVisitasMaxima;
+    private int numeroEspeciesVisita;
+    
+    Itinerario(int duracion,float longitud, int numeroVisitasMaxima,int numeroEspeciesVisita){
+        this.duracionRecorido=duracionRecorido;
+        this.longitud=longitud;
+        this.numeroVisitasMaxima=numeroVisitasMaxima;
+        this.numeroEspeciesVisita=numeroEspeciesVisita;
+    }
+    
 }
