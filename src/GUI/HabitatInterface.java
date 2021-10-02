@@ -38,6 +38,7 @@ public class HabitatInterface {
         System.out.println("presione 1 para agregar un habitat");
         System.out.println("presione 2 para buscar un habitat");
         System.out.println("presione 3 para imprimir un habitat");
+        System.out.println("presione 4 para ir ala pantalla principal");
         int i=leer.nextInt();
         if(i==1){
             agregarNuevoHabitat();
@@ -47,6 +48,9 @@ public class HabitatInterface {
         }
         if(i==3){
             imprimir();
+        }
+        if(i==4){
+            pantallaPrincipal();
         }
     }
     
@@ -74,7 +78,10 @@ public class HabitatInterface {
         System.out.println("ingrese el nombre del habitat: ");
         String nombre=leer.next();
         System.out.println(h.buscarHabitat(nombre));
-    
+        
+    }
+    public void pantallaPrincipal(){
+        InterfacePrincipal.InterfacePrincipal();
     }
      
 }
