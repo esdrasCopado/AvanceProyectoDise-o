@@ -3,19 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package avanceproyectofinal;
+package Entidades;
 
 /**
  *
  * @author copad
  */
-public class AvanceProyectoFinal {
+public class ZonaParque {
+    
+    private String nombre;
+    private float extencion;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        
+    public ZonaParque(String nombre, float extencion) {
+        this.nombre = nombre;
+        this.extencion = extencion;
     }
     
 }
