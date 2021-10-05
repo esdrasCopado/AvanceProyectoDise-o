@@ -36,10 +36,20 @@ public class HabitatsRepositorio {
         }
         return null;
     }
+    public void imprimirHabitat(int index){
+        System.out.println(habitats.get(index).toString()); 
+    }
+    public void editHavitat(HabitatNatural habitat, int index){
+        try {
+            habitats.set(index, habitat);
+        } catch (Exception e) {
+            System.out.println(e.getLocalizedMessage());
+        }
+    }
     public void print(){
         for (int i = 0; i < habitats.size(); i++) {
             HabitatNatural h=(HabitatNatural)habitats.get(i);
-            System.out.println(h.toString());
+            System.out.println("ID "+i+" "+h.toString());
         }
     }
 }

@@ -11,10 +11,10 @@ import java.time.Month;
  * @author copad
  */
 public class Empleado {
-    String nombre;
-    String direccion;
-    int telefono;
-    LocalDate fechaInicio;
+    private String nombre;
+    private String direccion;
+    private int telefono;
+    private LocalDate fechaInicio;
     
     public Empleado(String nombre,String direccion,int telefono, LocalDate fechaInicio){
         this.nombre=nombre;

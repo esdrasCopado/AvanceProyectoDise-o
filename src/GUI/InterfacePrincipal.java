@@ -32,6 +32,7 @@ public class InterfacePrincipal {
         HabitatInterface habitats = new HabitatInterface();
         boolean correrSistema = true;
         while (correrSistema) {
+            System.out.println("---->>>Pantalla principal<<<----");
             System.out.println("Presione 1 para habitats");
             System.out.println("Presione 4 para salir");
             
